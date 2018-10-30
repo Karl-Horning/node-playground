@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Karl-Horning/node-playground#readme",
   "dependencies": {
+    "ejs": "^2.6.1",
     "express": "^4.16.4"
   }
 }

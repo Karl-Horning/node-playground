@@ -5,7 +5,7 @@ app.set('view engine', 'ejs');
 
 // index
 app.get('/', (req, res) => {
-    res.send('Hello!');
+    res.render('index');
 });
 
 // Run the server
