@@ -686,7 +686,7 @@ app.get('/graph', (req, res) => {
 
 // population graph
 app.get('/population-graph', (req, res) => {
-    res.send('Graph');
+    res.render('population-graph');
 });
 
 // 404
