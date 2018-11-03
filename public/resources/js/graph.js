@@ -116,13 +116,22 @@ svg.append('text')
 // x axis label
 svg.append('text')
     .attr('x', (width / 2) + margin)
-    .attr('y', height + (margin * 2 - 12))
+    .attr('y', height + (margin * 2 - 17))
     .attr('text-anchor', 'middle')
     .text('Languages');
 
-// Graph label
+// Graph title
 svg.append('text')
-    .attr('x', (width / 2) + margin)
+    .attr('class', 'title')
+    .attr('x', width / 2 + margin)
     .attr('y', 40)
     .attr('text-anchor', 'middle')
-    .text('Most loved programming languages in 2018');
+    .text('Most loved programming languages in 2018')
+
+// Graph attribution
+svg.append('text')
+    .attr('class', 'source')
+    .attr('x', width - margin / 2)
+    .attr('y', height + margin * 1.7)
+    .attr('text-anchor', 'start')
+    .text('Source: Stack Overflow, 2018')
