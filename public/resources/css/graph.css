@@ -6,7 +6,8 @@ div#layout {
     text-align: center;
 }
 
-div#container {
+div#container,
+div#svgContainer {
     width: 1000px;
     height: 600px;
     margin: auto;
