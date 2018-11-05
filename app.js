@@ -679,6 +679,11 @@ app.get('/', (req, res) => {
     res.render('index');
 });
 
+// d3 playground
+app.get('/d3', (req, res) => {
+    res.render('d3');
+});
+
 // graph
 app.get('/graph', (req, res) => {
     res.render('graph');
